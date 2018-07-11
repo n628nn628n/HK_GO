@@ -30,8 +30,11 @@ func main() {
 	i, _ := strconv.Atoi(d)
 	fmt.Printf("f / e = (%T) %d", a+i, a+i)
 	fmt.Println("")
-	z := strconv.Itoa(a)
-	fmt.Printf("%s%s", x, z)
+	a1 := strconv.Itoa(a)
+	a2 := fmt.Sprint(a)
+	fmt.Printf("%s%s", x, a1)
+	fmt.Printf("%s%s", x, a2)
 	fmt.Println("")
 	fmt.Printf("%s%d", x, a)
+
 }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main1() {
+func main() {
 	a := "string"
 	b := 123
 	c := true
