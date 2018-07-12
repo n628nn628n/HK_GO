@@ -22,7 +22,7 @@ func main() {
 
 func apiController(w http.ResponseWriter, r *http.Request) {
 	s := map[string]interface{}{}
-
+	//Marshal << encode
 	data, _ := json.Marshal(s)
 
 	w.Header().Set("Content-Type", "application/json")
